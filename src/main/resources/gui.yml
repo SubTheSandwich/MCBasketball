@@ -1,0 +1,29 @@
+filler:
+  enabled: true
+  item: GRAY_STAINED_GLASS_PANE
+gui:
+  modify:
+    start:
+      name: "&eModify Court"
+      size: 27
+      items:
+        claim:
+          name: "&eClaim Court Area"
+          item: DIAMOND_HOE
+          slot: 11
+          redirect: "NONE"
+          lore:
+            - "&eClick to Initiate"
+            - "&eCourt Area Claim"
+            - "&7(Re-doing claim will"
+            - "&7remove any previous"
+            - "&7claim)"
+        locations:
+          name: "&eSpecific Locations"
+          item: CLOCK
+          slot: 15
+          redirect: "modify.locations"
+          lore:
+            - "&eClick to edit"
+            - "&especific locations"
+            - "&7(ex. hoop locations)"

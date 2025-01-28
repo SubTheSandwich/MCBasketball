@@ -1,0 +1,30 @@
+primary:
+  no-permission: "&cNo permission."
+  not-player: "&cThis command must be ran by a player."
+  inventory-full: "&cYour inventory is full."
+
+events:
+  claim:
+    given: "&aGave you a claim wand."
+    select:
+      one: "&ePosition One Selected"
+      two: "&ePosition Two Selected"
+    success: "&aSuccessfully claimed the area for &d%court%"
+    fail:
+      world: "&cYour two locations must be in the same world."
+      collides: "&cYour selected region contains parts of another court. Please reposition and try again."
+      missing: "&cYou must have both corners selected before claiming."
+    cancelled: "&cCancelled claiming."
+
+commands:
+  court:
+    usage: "&cUsage: /court <create/modify/delete> <court>"
+    exists: "&cA court by this name already exists."
+    not-exists: "&cA court by this name does not exist."
+    create:
+      created: "&eYou have created a new court named &b%court%"
+    modify:
+      already: "&cYou are already modifying a court."
+      start: "&eYou are now modifying &d%court%"
+      claim:
+        already: "&cYou are already claiming."

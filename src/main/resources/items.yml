@@ -1,0 +1,8 @@
+claim-wand:
+  name: "&aClaim Wand"
+  item: DIAMOND_HOE
+  lore:
+    - "&eLeft Click Block for Position One"
+    - "&eRight Click Block for Position Two"
+    - "&eLeft Click Air while Crouching to Claim"
+    - "&eRight Click Air while Crouching to Cancel"

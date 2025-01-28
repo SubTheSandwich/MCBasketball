@@ -1,0 +1,9 @@
+name: Basketball
+description: Basketball, but in Minecraft
+author: Sub
+main: me.sub.Basketball.Main.Main
+api-version: 1.21
+version: 1.0.0
+commands:
+  court:
+    description: Court
